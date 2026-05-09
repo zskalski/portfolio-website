@@ -47,11 +47,11 @@
                     
                 <section>
                     <h3 style="font-size:36px;" class="centered-justified">
-                            Hello, and welcome to my portfolio page!<br><br>
+                            Hello, welcome to my portfolio page!<br><br>
                         
                     </h3>
                     <p class="info-paragraph">
-                        I am a Computer Science junior at Florida State University with experience in C, C++, and Java, and a strong interest in systems and low-level programming. I have a solid foundation in operating systems, networking, and data structures. As a member of the Networked AI Systems Lab, I have contributed to the development, testing, and deployment of an AI health agent as part of a full-stack system.
+                        I am a Computer Science junior at Florida State University with experience in C, C++, and Java, and a strong interest in systems and low-level programming. I have a solid foundation in operating systems, networking, and data structures. As a member of the Networked AI Systems Lab, I contribute to research on AI systems for distributed and resource-constrained environments, including a multi-LLM health coaching agent and ongoing work on resilient distributed LLM inference for UAVs.
                     </p>                    
                 </section>
 
@@ -63,16 +63,51 @@
 
                 <br>
 
-                <section>
-                    <h3>Junior at Florida State University</h3>
-                    <p>Expected Graduation: Fall 2028</p>
-                    <p>GPA: 3.95/4.00</p>
+                <section>                
+                   <div class="content-section-title">
+
+                        <div class="content-section-title-photo">
+                            <img src="assets/images/logos/fsu-logo-2.svg" alt="Florida State University Logo" title="FSU Logo">
+                            <h3>Florida State University</h3>
+                        </div>
+
+                        <p>Tallahassee, FL<br>December 2028</p>
+
+                    </div>
+                    
+                    <div class="content-section-description"> 
+                        <p>B.S. Computer Science. GPA: 3.97</p>
+                        <br>
+                        <p>Graduate-Level Coursework: Artifical Intelligence (CAP5605), Internet of Things (CIS5930)</p>
+                        <p>Relevant Undergraduate Coursework: Operating Systems, Computer Networks, Data Structures & Algorithms, Computer Organization, Generic Programming I/II, Advanced Programming in Java</p>
+                        <br>
+                        <p>President's List: Fall 2024, Spring 2026</p>
+                        <p>Dean's List: Spring 2025, Fall 2025</p>
+                    </div>
+
                 </section>
                 
+                <br>
+                <br>
+
                 <section>
-                    <h3>South Broward High School</h3>
-                    <p>Graduated in 2024</p>
-                    <p>GPA: ...</p>
+                    <div class="content-section-title">
+
+                        <div class="content-section-title-photo">
+                            <img src="assets/images/logos/south-broward-logo.png" alt="South Broward Highschool Logo" title="SBHS Logo">
+                            <h3>South Broward High School</h3>
+                        </div>
+
+                            <p>Hollywood, FL<br>May 2024</p>
+
+                    </div>
+
+                    <div class="content-section-description">
+                        <p>GPA: 3.98. AP Scholar with Distinction. AICE Program Graduate.</p>
+                        <br>
+                        <p>Activities: National Honor Society President, Mu Alpha Theta Vice President, National Science Honor Society, Afterschool Math Tutor, Volunteer Swim Coach & Lifegaurd</p>                        
+                    </div>
+
                 </section>
 
             </article> 
@@ -80,18 +115,55 @@
             <hr>
 
             <article id="research-experience" class="content-section">
-
-                <!-- TO DO: add some pictures or interactivity! -->
+                
                 <h2>Research Experience</h2>
+                <br>
+                
+                <section>
+                    <div class="content-section-title">
+                        <div class="content-section-title-photo">
+                            <img src="assets/images/logos/fsu-logo.png" alt="Florida State University Logo" title="FSU Logo">
+                            <h3>Networked AI Systems Lab</h3>
+                        </div>
+                        <p>Tallahassee, FL<br>October 2025 - Present</p>
+                    </div>
 
+                    <div class="content-section-description">
+                        <p>We conduct research at the intersection of artificial intelligence, distributed systems, edge computing, and networking. The lab explores how large language models and multi-agent AI systems can operate in real-world environments where computation, memory, bandwidth, reliability, and long-term context management are limited. Recent work includes a behavioral health coaching system that uses multiple LLM agents, custom state representations, persistent session memory, and automated dialogue steering to support longitudinal user interactions. Our lab also works on distributed LLM inference across edge devices and is currently researching resilient LLM/VLM inference for UAV swarms using pipeline parallelism, speculative decoding, KV-cache management, and fault-tolerant model deployment.</p>
+                    </div>               
+                </section>
+                
+                <br>
                 <br>
 
-                <h3>Networked AI Systems Lab - Intern Spring 2026</h3>
-                <p>Description goes here...</p>
-                
-                <h3>Publications:</h3>
-                <h4>Longitudinal Behavioral Health Coaching with Dual LLM Agents: Multi-Scale Summaries and Automated Dialogue Steering (hopefully!)</h4>
-                <p>Description goes here...</p>
+                <section>
+                    <div class="content-section-title">
+                        <div class="content-section-title-photo">
+                            <h3>Publications:</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="content-section-description">
+                        <h4>Longitudinal Behavioral Health Coaching with Dual LLM Agents: Multi-Scale Summaries and Automated Dialogue Steering</h4>
+                        <h4 class="authors">Authors: Hansong Zhou, Zachary Skalski-Fouts, Linh Nguyen, Carson Rivera, Bonnie Spring, Hongyu Miao, Xiaonan Zhang</h4>
+
+                        <p>This project was to developed a multi-LLM behavioral health coaching system designed to support long-term behavior change across multiple sessions. The system uses a Coaching State Tracker, summary agent, and steering signal generator to preserve user goals, barriers, and commitments while guiding the dialogue agent toward proactive follow-up. We evaluated this architecture against baseline systems and found stronger performance in continuity, agenda control, coaching efficiency, and reduced repetitive loop behavior.</p>
+
+                        <br>
+                        <h5 style="font-weight: bold;">Contributions:</h5>
+
+                        <ul>
+                            <li>Developed evaluation metrics for Section 4.4: Efficiency of Longitudinal Progression, including methods for identifying redundant loops, constructive revisiting, and whether the agent converted dialogue into actionable coaching progress.</li>
+                            <li>Developed evaluation metrics for Section 4.5: Cross-Session Continuity, focused on whether the agent remembered and reused prior user goals, barriers, plans, and commitments across sessions.</li>
+                            <li>Assisted in the design of the participant/evaluation protocol, including multi-session user flow, progress updates, session limits, and follow-up expectations.</li>
+                            <li>Wrote and revised portions of the paper’s introduction, especially framing the need for longitudinal behavioral coaching, proactive agenda control, and continuity in LLM-based systems.</li>
+                            <li>Performed substantial editing across the paper, including clarity revisions, structure feedback, terminology checks, and evaluation-section critiques.</li>
+                        </ul>
+
+                    </div>
+                    
+                </section>
+
             </article>
 
             <hr>
@@ -101,23 +173,54 @@
                 <h2>Projects</h2>
 
                 <br>
+                <a style="text-align: center;" href="projects.html">All Projects</a>
+                <br>
 
                 <section>
-                    <h3>Embedded Systems Project</h3>
-                    <p>Description goes here...</p>
+                    <div class="content-section-title">
+                        <div class="content-section-title-photo">
+                            <h3>Multi-Drone Ground Control Simulator</h3>
+                        </div>               
+                    </div>
+                    
+                    <div class="content-section-description">
+                        <p>Description goes here...</p>
+                    </div>
                 </section>
+                <br><br>
+                <section>
+                    <div class="content-section-title">
+                        <div class="content-section-title-photo">
+                            <h3>Weather Monitoring System</h3>
+                        </div>               
+                    </div>
+                    
+                    <div class="content-section-description">
+                        <p>Description goes here...</p>
+                    </div>
+                </section>
+                <br><br>
+                <section>
+                    <div class="content-section-title">
+                        <div class="content-section-title-photo">
+                            <h3>Multithreaded Elevator Control Module</h3>
+                        </div>               
+                    </div>
+                    
+                    <div class="content-section-description">
+                        <ul>
+                            <li>Developed a custom Linux Kernel module using C to implement an elevator scheduling system</li>
+                            <li>Added new system calls to the kernel, demonstrating proficiency in compiling, configuring, and debugging Linux environments</li>
+                            <li>Applied concurrency control and thread synchronization using mutexes and kernel threads to manage shared resources</li>
+                            <li>Gained hands-on experience with low-level OS design, process scheduling, and system-level resource management</li>
+                        </ul>
+                    </div>
 
-                <section>
-                    <h3>Operating System Project</h3>
-                    <p>Description goes here...</p>
+                    <!-- TO DO: Link projects to github repos -->
+
                 </section>
-                
-                <section>
-                    <h3>Networking Project</h3>
-                    <p>Description goes here...</p>
-                </section>
-                
-                <a href="projects.html">All Projects</a>
+                <br><br>
+
 
             </article>
 
@@ -130,25 +233,94 @@
                 <br>
 
                 <section>
-                    <h3>Freshmen Interest Group Leader</h3>
-                    <p>Description goes here...</p>
-                </section>
+                    <div class="content-section-title">
+                        <div class="content-section-title-photo">
+                            <img src="assets/images/logos/fig-logo.png" alt="Freshman Interest Group Logo" title="FIG Logo">
+                            <h3>Freshman Interest Group Leader</h3>
+                        </div>
+                        
+                        <p>Tallahassee, FL<br>August 2026 - Present</p>
+                    </div>
                     
-                <section>
-                    <h3>Publix Supermarkets</h3>
-                    <p>Description goes here...</p>
+                    <div class="content-section-description">
+                        <ul>
+                            <li>Selected as an Engage 100 Group Leader to independently facilitate 2 Computer Science/Engineering colloquium sections, supporting up to 30 first-year students through class leadership, mentoring, and student-success monitoring.</li>
+                            <li>Developed technical-career programming for first-year students covering software engineering internships, technical resumes, interview preparation, research involvement, and career pathways across defense, aerospace, embedded systems, fintech, healthcare, and core technology sectors.</li>
+                            <li>Designed and facilitated AI-focused learning activities on responsible AI use, academic integrity, programming fundamentals, and AI-assisted study strategies, emphasizing preparation for advanced CS coursework, research, and graduate study.</li>
+                        </ul>
+                    </div>
                 </section>
+                <br><br>
+                <section>
+                    <div class="content-section-title">
+                        <div class="content-section-title-photo">
+                            <img src="assets/images/logos/publix-logo.png" alt="Publix Logo" title="Publix Logo">
+                            <h3>Publix Supermarkets</h3>
+                        </div>
+                        <p>Tallahassee, FL<br>July 2024 - September 2024</p>
+                    </div>
                     
-                <section>
-                    <h3>Ben & Jerry's</h3>
-                    <p>Description goes here...</p>
+                    <div class="content-section-description">
+                        <ul>
+                            <li>Operate deli equipment such as meat slicers and fryers while adhering to safety guidelines</li>
+                            <li>Collaborated in teams to prepare and package hundreds of deli meats, cheese, and ready-to-go meals</li>
+                            <li>Effectively navigated through a large storage system</li>
+                            <li>Assisted in several areas of the deli, such as the kitchen, hot foods counter, subs counter, and fresh slice demonstrating versatility and adaptability</li>
+                        </ul>
+                    </div>                    
                 </section>
+                <br><br>
+                <section>
+                    <div class="content-section-title">
+                        <div class="content-section-title-photo">
+                            <img src="assets/images/logos/ben-jerrys-logo.png" alt="Ben & Jerry's Logo" title="Ben & Jerry's Logo">
+                            <h3>Ben & Jerry's</h3>
+                        </div>
+                        <p>Hollywood, FL<br>December 2021 - June 2024</p>
+                    </div>
                     
-                <section>
-                    <h3>Sole Mia Lifegaurd</h3>
-                    <p>Description goes here...</p>
+                    <div class="content-section-description">
+                        <ul>
+                            <li>Processed over 200+ daily transactions using POS systems with accuracy and efficiency under minimal supervision</li>
+                            <li>Communicated professionally with customers in person and through phone calls, delivering accurate information and high-quality service</li>
+                            <li>Organized workstations and inventory systems to maintain efficiency and accuracy in daily operations</li>
+                            <li>Trained and supported staff with an emphasis on teamwork, development, and long-term retention.</li>
+                        </ul>
+                    </div>
                 </section>
-
+                <br><br> 
+                <section>
+                    <div class="content-section-title">
+                        <div class="content-section-title-photo">
+                            <img src="assets/images/logos/sole-mia-logo.png" alt="Sol&eacute; Mia Logo" title="Sol&eacute; Mia Logo">
+                            <h3>Sol&eacute; Mia Lagoon Lifegaurd</h3>
+                        </div>
+                        <p>North Miami, FL<br>August 2021 - March 2022</p>
+                    </div>
+                    
+                    <div class="content-section-description">
+                        <ul>
+                            <li>Provide a protection standard to swimmers in a 7-acre, 16-million-gallon made-made lagoon</li>
+                            <li>Collaborate with team members through radio and hand signals</li>
+                            <li>Attend monthly training to master emergency medical procedures</li>
+                            <li>Organize shift changes and mandatory breaks</li>
+                        </ul>
+                    </div>
+                </section>
+                <br><br>
+                <section>
+                    <div class="content-section-title">
+                        <div class="content-section-title-photo">
+                            <img src="assets/images/logos/high-sierra-logo.png" alt="High Sierra Pools Logo" title="High Sierra Pools Logo">
+                            <h3>High Sierra Pools Lifegaurd</h3>
+                        </div>
+                        <p>Burke, VA<br>May 2021 - August 2022</p>
+                    </div>
+                    
+                    <div class="content-section-description">
+                    </div>
+                </section>
+                <br><br>
             </article>
 
         </main>
@@ -157,10 +329,10 @@
             <article class="footer-row">
                 <section class="footer-icons">
                     <a href="https://www.linkedin.com/in/zachary-skalski-fouts/">
-                        <img src="assets/images/linkedin-logo.png" alt="LinkedIn Logo" title="LinkedIn" width="100" height="100">
+                        <img src="assets/images/logos/linkedin-logo.png" alt="LinkedIn Logo" title="LinkedIn" width="100" height="100">
                     </a>
                     <a href="https://github.com/zskalski">
-                        <img src="assets/images/github-logo.svg" alt="LinkedIn Logo" title="LinkedIn" width="100" height="100">
+                        <img src="assets/images/logos/github-logo.svg" alt="LinkedIn Logo" title="LinkedIn" width="100" height="100">
                     </a>
                 </section>            
                 
