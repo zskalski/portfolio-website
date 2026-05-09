@@ -2,6 +2,22 @@
 <html lang="en-US">
     
     <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Zachary Skalski-Fouts">
+        <meta name="description" 
+            content= "Zachary Skalski-Fouts's personal portfolio website. I showcase my projects, technical skills, and experience in software development, including work in areas such as C/C++, low-level programming, operating systems, and algorithms, along with resume and contact information.">
+
+        <title>Zachary Skalski-Fouts</title>
+
+        <!-- light mode -->
+        <link rel="icon" href="assets/images/favicon/light_mode_favicon.svg" type="image/svg+xml" media="(prefers-color-scheme: light)">
+        <link rel="icon" href="assets/images/favicon/light_mode_favicon.png" type="image/png" media="(prefers-color-scheme: light)">
+
+        <!-- dark mode -->
+         <link rel="icon" href="assets/images/favicon/dark_mode_favicon.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)">
+         <link rel="icon" href="assets/images/favicon/dark_mode_favicon.png" type="image/png" media="(prefers-color-scheme: dark)">
+
+         <link rel="stylesheet" href="css/main.css" type="text/css">
 
     </head>
 
@@ -9,18 +25,157 @@
 
         <header>
 
+            <h1>Zachary Skalski-Fouts</h1>
+
+            <nav aria-label="primary-navigation" class="ribbon">
+                    <a href="#education">Education</a>
+                    <a href="#research-experience">Research Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#work-experience">Work Experience</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about-me.html">About Me</a>
+                    <a href="resume.html">Resume</a>
+            </nav>
+
         </header>
 
-        <main>
+        <main class="page-content">
+
+            <article id="info" class="info-section">
+
+                <img src="assets/images/profile_picture.JPG" alt="Portfolio Picture" class="portfolio-picture" title="Zachary Skalski-Fouts" width="473" height="400">                
+                    
+                <section>
+                    <h3 style="font-size:36px;" class="centered-justified">
+                            Hello, and welcome to my portfolio page!<br><br>
+                        
+                    </h3>
+                    <p class="info-paragraph">
+                        I am a Computer Science junior at Florida State University with experience in C, C++, and Java, and a strong interest in systems and low-level programming. I have a solid foundation in operating systems, networking, and data structures. As a member of the Networked AI Systems Lab, I have contributed to the development, testing, and deployment of an AI health agent as part of a full-stack system.
+                    </p>                    
+                </section>
+
+            </article>
+
+            <article id="education" class="content-section">
+
+                <h2>Education</h2>
+
+                <br>
+
+                <section>
+                    <h3>Junior at Florida State University</h3>
+                    <p>Expected Graduation: Fall 2028</p>
+                    <p>GPA: 3.95/4.00</p>
+                </section>
+                
+                <section>
+                    <h3>South Broward High School</h3>
+                    <p>Graduated in 2024</p>
+                    <p>GPA: ...</p>
+                </section>
+
+            </article> 
+
+            <hr>
+
+            <article id="research-experience" class="content-section">
+
+                <!-- TO DO: add some pictures or interactivity! -->
+                <h2>Research Experience</h2>
+
+                <br>
+
+                <h3>Networked AI Systems Lab - Intern Spring 2026</h3>
+                <p>Description goes here...</p>
+                
+                <h3>Publications:</h3>
+                <h4>Longitudinal Behavioral Health Coaching with Dual LLM Agents: Multi-Scale Summaries and Automated Dialogue Steering (hopefully!)</h4>
+                <p>Description goes here...</p>
+            </article>
+
+            <hr>
+
+            <article id="projects" class="content-section">
+
+                <h2>Projects</h2>
+
+                <br>
+
+                <section>
+                    <h3>Embedded Systems Project</h3>
+                    <p>Description goes here...</p>
+                </section>
+
+                <section>
+                    <h3>Operating System Project</h3>
+                    <p>Description goes here...</p>
+                </section>
+                
+                <section>
+                    <h3>Networking Project</h3>
+                    <p>Description goes here...</p>
+                </section>
+                
+                <a href="projects.html">All Projects</a>
+
+            </article>
+
+            <hr>
+
+            <article id="work-experience" class="content-section">
+
+                <h2>Work Experience</h2>
+
+                <br>
+
+                <section>
+                    <h3>Freshmen Interest Group Leader</h3>
+                    <p>Description goes here...</p>
+                </section>
+                    
+                <section>
+                    <h3>Publix Supermarkets</h3>
+                    <p>Description goes here...</p>
+                </section>
+                    
+                <section>
+                    <h3>Ben & Jerry's</h3>
+                    <p>Description goes here...</p>
+                </section>
+                    
+                <section>
+                    <h3>Sole Mia Lifegaurd</h3>
+                    <p>Description goes here...</p>
+                </section>
+
+            </article>
 
         </main>
 
         <footer>
-            
+            <article class="footer-row">
+                <section class="footer-icons">
+                    <a href="https://www.linkedin.com/in/zachary-skalski-fouts/">
+                        <img src="assets/images/linkedin-logo.png" alt="LinkedIn Logo" title="LinkedIn" width="100" height="100">
+                    </a>
+                    <a href="https://github.com/zskalski">
+                        <img src="assets/images/github-logo.svg" alt="LinkedIn Logo" title="LinkedIn" width="100" height="100">
+                    </a>
+                </section>            
+                
+                <section class="footer-info">
+                    <a style="font-size:28px;" href="about-me.html">Zachary Skalski-Fouts</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="contact.html">Contact Me</a>
+                </section>
+
+                <section>
+                    <a href="#">Back to Top</a>
+                </section>
+            </article>
         </footer>
 
     </body>
-
-
 
 </html>

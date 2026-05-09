@@ -1,3 +1,0 @@
-VScode
-Live Server w/VScode
-W3C HTML Checker
