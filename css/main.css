@@ -348,3 +348,23 @@ footer a:hover {
 .contact-form h2 {
     margin-bottom: 20px;
 }
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.resume a {
+    margin-bottom: 30px;;
+    width: fit-content;
+    height: fit-content;
+}
+
+.resume iframe {
+    width: 90%;
+    height: 1300px;
+    margin-left: 5%;
+    margin-right: 5%;
+}

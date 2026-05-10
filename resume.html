@@ -5,9 +5,9 @@
         <meta charset="UTF-8">
         <meta name="author" content="Zachary Skalski-Fouts">
         <meta name="description" 
-            content= "Zachary Skalski-Fouts's resume.">  <!-- TO DO: add more about the description here! -->
+            content= "Zachary Skalski-Fouts's about me page.">  <!-- TO DO: add more about the description here! -->
 
-        <title>Resume</title>
+        <title>About Me</title>
 
         <!-- light mode -->
         <link rel="icon" href="assets/images/favicon/light_mode_favicon.svg" type="image/svg+xml" media="(prefers-color-scheme: light)">
@@ -16,16 +16,37 @@
         <!-- dark mode -->
          <link rel="icon" href="assets/images/favicon/dark_mode_favicon.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)">
          <link rel="icon" href="assets/images/favicon/dark_mode_favicon.png" type="image/png" media="(prefers-color-scheme: dark)">
+    
+        <link rel="stylesheet" href="css/main.css" type="text/css">
     </head>
 
-    <bobdy>
+    <body>
 
         <header>
 
-            <h1>Here I will link my resume.</h1>
+            <h1>Resume</h1>
 
-        </header>
+            <nav aria-label="primary-navigation" class="ribbon">
+                    <a href="index.html">← Back</a>
+                    <a href="index.html#education">Education</a>
+                    <a href="index.html#research-experience">Research Experience</a>
+                    <a href="index.html#projects">Projects</a>
+                    <a href="index.html#work-experience">Work Experience</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about-me.html">About Me</a>
+            </nav>
 
-    </bobdy>
+            <main class="resume">
+
+                <a href="assets/zachary.skalski-fouts.resume.pdf" target="_blank">Resume PDF</a>
+
+                <iframe src="assets/zachary.skalski-fouts.resume.pdf#navpanes=0"
+                        width="100%"
+                        height="1000px">
+                </iframe>
+
+            </main>
+
+    </body>
 
 </html>
