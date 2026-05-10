@@ -16,16 +16,54 @@
         <!-- dark mode -->
          <link rel="icon" href="assets/images/favicon/dark_mode_favicon.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)">
          <link rel="icon" href="assets/images/favicon/dark_mode_favicon.png" type="image/png" media="(prefers-color-scheme: dark)">
+    
+        <link rel="stylesheet" href="css/main.css" type="text/css">
     </head>
 
-    <bobdy>
+    <body>
 
         <header>
 
-            <h1>Contact Me</h1>
+            <h1>Contact Page</h1>
+
+            <nav aria-label="primary-navigation" class="ribbon">
+                    <a href="index.html">← Back</a>
+                    <a href="index.html#education">Education</a>
+                    <a href="index.html#research-experience">Research Experience</a>
+                    <a href="index.html#projects">Projects</a>
+                    <a href="index.html#work-experience">Work Experience</a>
+                    <a href="about-me.html">About Me</a>
+                    <a href="resume.html">Resume</a>
+                    
+            </nav>
 
         </header>
 
-    </bobdy>
+
+        <main class="page-content">
+
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+                <h2>Contact Form</h2>
+                
+                <input type="hidden" name="access_key" value="7f737b1b-cf0f-47a1-a52e-ef9e26e84341">
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="5" placeholder="Write your message..."></textarea>
+                
+                <button type="submit">Submit</button>
+
+                <p>Thank you for your message!</p>
+            </form>
+
+        </main>
+
+    </body>
 
 </html>

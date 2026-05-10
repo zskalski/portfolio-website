@@ -287,3 +287,64 @@ footer a {
 footer a:hover {
     color: #adadad;
 }
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: snow;
+    border: 10px groove #071629
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+    border: 5px solid #8b8b8b;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 0.8rem;
+    margin-bottom: 60px;;
+    border: 5px solid #8b8b8b;
+}
+
+.contact-form label {
+    font-size: 1.2rem;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;;
+    font-weight: bold;
+    color: black;
+}
+
+.contact-form button {
+    width: 300px;
+    height: 50px;
+    font-size: 0.9rem;
+    background-color: #f3f0ee;
+    font-weight: bold;
+    border: 5px solid #8b8b8b;
+}
+
+.contact-form button:hover {
+    background-color: #adadad;
+}
+
+.contact-form p {
+    margin-top: 40px;;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
