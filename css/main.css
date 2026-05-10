@@ -298,8 +298,8 @@ footer a:hover {
     padding-bottom: 5%;
     padding-left: 3%;
     padding-right: 3%;
-    background-color: snow;
-    border: 10px groove #071629
+    background-color: #f3f0ee;
+    border: 10px solid #071629
 }
 
 .contact-form input {
@@ -334,6 +334,7 @@ footer a:hover {
     font-size: 0.9rem;
     background-color: #f3f0ee;
     font-weight: bold;
+    color: #000002;
     border: 5px solid #8b8b8b;
 }
 
